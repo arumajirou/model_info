@@ -1,0 +1,4 @@
+﻿required_template,models,n_models
+h,"['AutoAutoformer', 'AutoBiTCN', 'AutoDLinear', 'AutoDeepAR', 'AutoDeepNPTS', 'AutoDilatedRNN', 'AutoFEDformer', 'AutoGRU', 'AutoInformer', 'AutoKAN', 'AutoLSTM', 'AutoMLP', 'AutoNBEATS', 'AutoNBEATSx', 'AutoNHITS', 'AutoNLinear', 'AutoPatchTST', 'AutoRNN', 'AutoTCN', 'AutoTFT', 'AutoTiDE', 'AutoTimesNet', 'AutoVanillaTransformer', 'AutoxLSTM']",24
+"h, n_series","['AutoMLPMultivariate', 'AutoRMoK', 'AutoSOFTS', 'AutoStemGNN', 'AutoTSMixer', 'AutoTSMixerx', 'AutoTimeMixer', 'AutoTimeXer', 'AutoiTransformer']",9
+"S, cls_model, config, h, loss, valid_loss",['AutoHINT'],1

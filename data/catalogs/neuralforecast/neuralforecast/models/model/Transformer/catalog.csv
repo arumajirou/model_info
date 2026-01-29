@@ -1,0 +1,9 @@
+﻿kind,name,module,qualname,doc,family,library,namespace,submodule_head,submodule
+model,Autoformer,neuralforecast.models.autoformer,neuralforecast.models.autoformer.Autoformer,Autoformer,Transformer,neuralforecast,models,autoformer,autoformer
+model,FEDformer,neuralforecast.models.fedformer,neuralforecast.models.fedformer.FEDformer,FEDformer,Transformer,neuralforecast,models,fedformer,fedformer
+model,Informer,neuralforecast.models.informer,neuralforecast.models.informer.Informer,Informer,Transformer,neuralforecast,models,informer,informer
+model,PatchTST,neuralforecast.models.patchtst,neuralforecast.models.patchtst.PatchTST,PatchTST,Transformer,neuralforecast,models,patchtst,patchtst
+model,TFT,neuralforecast.models.tft,neuralforecast.models.tft.TFT,TFT,Transformer,neuralforecast,models,tft,tft
+model,TimeXer,neuralforecast.models.timexer,neuralforecast.models.timexer.TimeXer,TimeXer,Transformer,neuralforecast,models,timexer,timexer
+model,VanillaTransformer,neuralforecast.models.vanillatransformer,neuralforecast.models.vanillatransformer.VanillaTransformer,VanillaTransformer,Transformer,neuralforecast,models,vanillatransformer,vanillatransformer
+model,iTransformer,neuralforecast.models.itransformer,neuralforecast.models.itransformer.iTransformer,iTransformer,Transformer,neuralforecast,models,itransformer,itransformer

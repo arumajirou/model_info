@@ -1,0 +1,2 @@
+﻿kind,name,module,qualname,doc,family,library,namespace,submodule_head,submodule
+model,TimeLLM,neuralforecast.models.timellm,neuralforecast.models.timellm.TimeLLM,TimeLLM,,neuralforecast,models,timellm,timellm

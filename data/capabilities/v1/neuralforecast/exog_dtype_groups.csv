@@ -1,0 +1,10 @@
+﻿dtype_group,desc_ja
+numeric,浮動小数/整数など数値
+numeric_like,数値に変換できる可能性（例: bool）
+category,カテゴリ型(category)。通常は数値化(one-hot等)が必要
+string,pandas StringDtype の文字列
+string_like,objectの文字列（厳密な型保証なし）
+datetime,datetime64（日付時刻）
+datetime_like,timedelta等の時間差
+object_mixed,object混在（数値/文字列など）
+numeric_complex,複素数（多くの実装は非対応）

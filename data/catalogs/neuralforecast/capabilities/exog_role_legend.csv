@@ -1,0 +1,4 @@
+﻿exog_code,exog_role,desc_ja
+F,future,未来外生（予測時に将来値が既知：カレンダー/天気予報など）
+H,historical,過去外生（過去のみ観測：需要/負荷など）
+S,static,静的外生（系列ごとに不変：地域ID等。通常はone-hot等の数値化）

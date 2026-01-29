@@ -1,0 +1,7 @@
+﻿kind,name,module,qualname,doc,family,library,namespace,submodule_head,submodule
+model,DLinear,neuralforecast.models.dlinear,neuralforecast.models.dlinear.DLinear,DLinear,Linear/MLP,neuralforecast,models,dlinear,dlinear
+model,MLP,neuralforecast.models.mlp,neuralforecast.models.mlp.MLP,MLP,Linear/MLP,neuralforecast,models,mlp,mlp
+model,MLPMultivariate,neuralforecast.models.mlpmultivariate,neuralforecast.models.mlpmultivariate.MLPMultivariate,MLPMultivariate,Linear/MLP,neuralforecast,models,mlpmultivariate,mlpmultivariate
+model,NLinear,neuralforecast.models.nlinear,neuralforecast.models.nlinear.NLinear,NLinear,Linear/MLP,neuralforecast,models,nlinear,nlinear
+model,TSMixer,neuralforecast.models.tsmixer,neuralforecast.models.tsmixer.TSMixer,TSMixer,Linear/MLP,neuralforecast,models,tsmixer,tsmixer
+model,TSMixerx,neuralforecast.models.tsmixerx,neuralforecast.models.tsmixerx.TSMixerx,TSMixerx,Linear/MLP,neuralforecast,models,tsmixerx,tsmixerx

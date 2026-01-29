@@ -1,0 +1,8 @@
+﻿obj_id,py_type,repr
+26970ddc13d8,<class 'neuralforecast.losses.pytorch.DistributionLoss'>,DistributionLoss()
+3946dcaa6f6e,<class 'ray.tune.search.sample.Integer'>,<ray.tune.search.sample.Integer object at 0xADDR>
+4889be87ce52,<class 'ray.tune.search.sample.Float'>,<ray.tune.search.sample.Float object at 0xADDR>
+4b383a194607,<class 'ray.tune.search.sample.Categorical'>,<ray.tune.search.sample.Categorical object at 0xADDR>
+533e6ebe1215,<class 'ray.tune.search.basic_variant.BasicVariantGenerator'>,<ray.tune.search.basic_variant.BasicVariantGenerator object at 0xADDR>
+537e228ff632,<class 'neuralforecast.losses.pytorch.MQLoss'>,MQLoss()
+8457c3e30e7f,<class 'neuralforecast.losses.pytorch.MAE'>,MAE()

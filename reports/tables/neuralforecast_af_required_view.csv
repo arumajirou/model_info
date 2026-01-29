@@ -1,0 +1,35 @@
+﻿auto_name,required_params_tuple,required_template,family
+AutoBiTCN,"('h',)",h,CNN
+AutoTCN,"('h',)",h,CNN
+AutoTimesNet,"('h',)",h,CNN
+AutoDLinear,"('h',)",h,Linear/MLP
+AutoMLP,"('h',)",h,Linear/MLP
+AutoNLinear,"('h',)",h,Linear/MLP
+AutoMLPMultivariate,"('h', 'n_series')","h, n_series",Linear/MLP
+AutoTSMixer,"('h', 'n_series')","h, n_series",Linear/MLP
+AutoTSMixerx,"('h', 'n_series')","h, n_series",Linear/MLP
+AutoDilatedRNN,"('h',)",h,RNN
+AutoGRU,"('h',)",h,RNN
+AutoLSTM,"('h',)",h,RNN
+AutoxLSTM,"('h',)",h,RNN
+AutoHINT,"('S', 'cls_model', 'config', 'h', 'loss', 'valid_loss')","S, cls_model, config, h, loss, valid_loss",Specialized
+AutoDeepAR,"('h',)",h,Specialized
+AutoDeepNPTS,"('h',)",h,Specialized
+AutoKAN,"('h',)",h,Specialized
+AutoNBEATS,"('h',)",h,Specialized
+AutoNBEATSx,"('h',)",h,Specialized
+AutoNHITS,"('h',)",h,Specialized
+AutoRNN,"('h',)",h,Specialized
+AutoTiDE,"('h',)",h,Specialized
+AutoRMoK,"('h', 'n_series')","h, n_series",Specialized
+AutoSOFTS,"('h', 'n_series')","h, n_series",Specialized
+AutoStemGNN,"('h', 'n_series')","h, n_series",Specialized
+AutoTimeMixer,"('h', 'n_series')","h, n_series",Specialized
+AutoAutoformer,"('h',)",h,Transformer
+AutoFEDformer,"('h',)",h,Transformer
+AutoInformer,"('h',)",h,Transformer
+AutoPatchTST,"('h',)",h,Transformer
+AutoTFT,"('h',)",h,Transformer
+AutoVanillaTransformer,"('h',)",h,Transformer
+AutoTimeXer,"('h', 'n_series')","h, n_series",Transformer
+AutoiTransformer,"('h', 'n_series')","h, n_series",Transformer

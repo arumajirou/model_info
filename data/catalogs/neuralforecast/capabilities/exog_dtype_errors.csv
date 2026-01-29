@@ -1,0 +1,12 @@
+﻿library,exog_role,dtype_key,dtype_group,dataset_error,cast_error
+neuralforecast,future,category_str,category,,"ValueError: Unable to parse string ""E"" at position 0"
+neuralforecast,future,string,string,,"ValueError: Unable to parse string ""y"" at position 0"
+neuralforecast,future,object_str,string_like,,"ValueError: Unable to parse string ""z"" at position 0"
+neuralforecast,future,object_mixed,object_mixed,,"ValueError: Unable to parse string ""x"" at position 8"
+neuralforecast,historical,category_str,category,,"ValueError: Unable to parse string ""A"" at position 0"
+neuralforecast,historical,string,string,,"ValueError: Unable to parse string ""x"" at position 0"
+neuralforecast,historical,object_str,string_like,,"ValueError: Unable to parse string ""y"" at position 0"
+neuralforecast,historical,object_mixed,object_mixed,,"ValueError: Unable to parse string ""x"" at position 2"
+neuralforecast,static,category_str,category,,"ValueError: Unable to parse string ""E"" at position 0"
+neuralforecast,static,string,string,,"ValueError: Unable to parse string ""y"" at position 0"
+neuralforecast,static,object_str,string_like,,"ValueError: Unable to parse string ""x"" at position 0"

@@ -1,0 +1,5 @@
+﻿kind,name,module,qualname,doc,family,library,namespace,submodule_head,submodule
+model,DilatedRNN,neuralforecast.models.dilated_rnn,neuralforecast.models.dilated_rnn.DilatedRNN,DilatedRNN,RNN,neuralforecast,models,dilated_rnn,dilated_rnn
+model,GRU,neuralforecast.models.gru,neuralforecast.models.gru.GRU,GRU,RNN,neuralforecast,models,gru,gru
+model,LSTM,neuralforecast.models.lstm,neuralforecast.models.lstm.LSTM,LSTM,RNN,neuralforecast,models,lstm,lstm
+model,xLSTM,neuralforecast.models.xlstm,neuralforecast.models.xlstm.xLSTM,xLSTM,RNN,neuralforecast,models,xlstm,xlstm

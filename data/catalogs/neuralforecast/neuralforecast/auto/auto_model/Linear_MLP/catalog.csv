@@ -1,0 +1,7 @@
+﻿kind,name,module,qualname,doc,family,library,namespace,submodule_head,submodule
+auto_model,AutoDLinear,neuralforecast.auto,neuralforecast.auto.AutoDLinear,"Class for Automatic Hyperparameter Optimization, it builds on top of `ray` to",Linear/MLP,neuralforecast,auto,,
+auto_model,AutoMLP,neuralforecast.auto,neuralforecast.auto.AutoMLP,"Class for Automatic Hyperparameter Optimization, it builds on top of `ray` to",Linear/MLP,neuralforecast,auto,,
+auto_model,AutoMLPMultivariate,neuralforecast.auto,neuralforecast.auto.AutoMLPMultivariate,"Class for Automatic Hyperparameter Optimization, it builds on top of `ray` to",Linear/MLP,neuralforecast,auto,,
+auto_model,AutoNLinear,neuralforecast.auto,neuralforecast.auto.AutoNLinear,"Class for Automatic Hyperparameter Optimization, it builds on top of `ray` to",Linear/MLP,neuralforecast,auto,,
+auto_model,AutoTSMixer,neuralforecast.auto,neuralforecast.auto.AutoTSMixer,"Class for Automatic Hyperparameter Optimization, it builds on top of `ray` to",Linear/MLP,neuralforecast,auto,,
+auto_model,AutoTSMixerx,neuralforecast.auto,neuralforecast.auto.AutoTSMixerx,"Class for Automatic Hyperparameter Optimization, it builds on top of `ray` to",Linear/MLP,neuralforecast,auto,,

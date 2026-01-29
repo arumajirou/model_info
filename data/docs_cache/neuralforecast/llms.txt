@@ -1,0 +1,255 @@
+# Nixtla
+
+## Docs
+
+- [Differences](https://nixtlaverse.nixtla.io/coreforecast/differences.md): Find the optimal number of differences
+- [Expanding](https://nixtlaverse.nixtla.io/coreforecast/expanding.md): Compute expanding mean, std, min, max, and quantile
+- [Exponentially weighted](https://nixtlaverse.nixtla.io/coreforecast/exponentially_weighted.md): Compute exponentially weighted mean
+- [Grouped Array](https://nixtlaverse.nixtla.io/coreforecast/grouped_array.md): Group arrays by a categorical variable
+- [coreforecast](https://nixtlaverse.nixtla.io/coreforecast/index.md): Fast implementations of common forecasting routines
+- [Lag transformations](https://nixtlaverse.nixtla.io/coreforecast/lag_transforms.md): Compute lag transforms
+- [Rolling](https://nixtlaverse.nixtla.io/coreforecast/rolling.md): Compute rolling mean, std, min, max, and quantile
+- [Scalers](https://nixtlaverse.nixtla.io/coreforecast/scalers.md): Scale arrays
+- [Seasonal](https://nixtlaverse.nixtla.io/coreforecast/seasonal.md): Find the seasonal period
+- [null](https://nixtlaverse.nixtla.io/coreforecast/utils.md)
+- [Favorita](https://nixtlaverse.nixtla.io/datasetsforecast/favorita.html.md): Favorita dataset
+- [Hierarchical](https://nixtlaverse.nixtla.io/datasetsforecast/hierarchical.html.md): Hierarchical dataset
+- [datasetsforecast](https://nixtlaverse.nixtla.io/datasetsforecast/index.html.md): Datasets for time series forecasting
+- [Long Horizon](https://nixtlaverse.nixtla.io/datasetsforecast/long_horizon.html.md): Download and wrangling utility for long-horizon datasets.
+- [Long-Horizon Original Datasets](https://nixtlaverse.nixtla.io/datasetsforecast/long_horizon2.html.md): Download and wrangling utility for long-horizon datasets. These datasets have been used by `NHITS, AutoFormer, Informer, PatchTST, TiDE` among many other neural forecasting methods. The datasets include the original [ETTh1, ETTh2, ETTm1, ETTm2, Weather, ILI, TrafficL](https://github.com/zhouhaoyi/ETDataset) benchmark datasets.
+- [M3](https://nixtlaverse.nixtla.io/datasetsforecast/m3.html.md): M3 dataset
+- [M4](https://nixtlaverse.nixtla.io/datasetsforecast/m4.html.md): M4 dataset
+- [M5](https://nixtlaverse.nixtla.io/datasetsforecast/m5.html.md): M5 dataset
+- [PHM2008](https://nixtlaverse.nixtla.io/datasetsforecast/phm2008.html.md): PHM2008 dataset
+- [Utils](https://nixtlaverse.nixtla.io/datasetsforecast/utils.html.md): Utility functions for datasetsforecast
+- [Core](https://nixtlaverse.nixtla.io/hierarchicalforecast/core.html.md): Core
+- [Hierarchical Evaluation](https://nixtlaverse.nixtla.io/hierarchicalforecast/evaluation.html.md)
+- [Bootstrap](https://nixtlaverse.nixtla.io/hierarchicalforecast/examples/australiandomestictourism-bootstraped-intervals.html.md)
+- [Normality](https://nixtlaverse.nixtla.io/hierarchicalforecast/examples/australiandomestictourism-intervals.html.md)
+- [Multi-model Aggregation](https://nixtlaverse.nixtla.io/hierarchicalforecast/examples/australiandomestictourism-multimodel.html.md)
+- [PERMBU](https://nixtlaverse.nixtla.io/hierarchicalforecast/examples/australiandomestictourism-permbu-intervals.html.md)
+- [Geographical Aggregation (Tourism)](https://nixtlaverse.nixtla.io/hierarchicalforecast/examples/australiandomestictourism.html.md)
+- [Geographical and Temporal Aggregation (Tourism)](https://nixtlaverse.nixtla.io/hierarchicalforecast/examples/australiandomestictourismcrosstemporal.html.md)
+- [Temporal Aggregation (Tourism)](https://nixtlaverse.nixtla.io/hierarchicalforecast/examples/australiandomestictourismtemporal.html.md)
+- [Geographical Aggregation (Prison Population)](https://nixtlaverse.nixtla.io/hierarchicalforecast/examples/australianprisonpopulation.html.md)
+- [Tutorials](https://nixtlaverse.nixtla.io/hierarchicalforecast/examples/index.html.md)
+- [Install](https://nixtlaverse.nixtla.io/hierarchicalforecast/examples/installation.html.md)
+- [Introduction](https://nixtlaverse.nixtla.io/hierarchicalforecast/examples/introduction.html.md)
+- [Local vs Global Temporal Aggregation](https://nixtlaverse.nixtla.io/hierarchicalforecast/examples/localglobalaggregation.html.md)
+- [Temporal Aggregation with THIEF](https://nixtlaverse.nixtla.io/hierarchicalforecast/examples/m3withthief.html.md)
+- [Neural/MLForecast](https://nixtlaverse.nixtla.io/hierarchicalforecast/examples/mlframeworksexample.html.md)
+- [Non-Negative MinTrace](https://nixtlaverse.nixtla.io/hierarchicalforecast/examples/nonnegativereconciliation.html.md)
+- [Reconciliation Diagnostics](https://nixtlaverse.nixtla.io/hierarchicalforecast/examples/reconciliationdiagnostics.html.md)
+- [Probabilistic Forecast Evaluation](https://nixtlaverse.nixtla.io/hierarchicalforecast/examples/tourismlarge-evaluation.html.md)
+- [Quick Start](https://nixtlaverse.nixtla.io/hierarchicalforecast/examples/tourismsmall.html.md)
+- [Quick Start (Polars)](https://nixtlaverse.nixtla.io/hierarchicalforecast/examples/tourismsmallpolars.html.md)
+- [Hierarchical Forecast 👑](https://nixtlaverse.nixtla.io/hierarchicalforecast/index.html.md): Probabilistic hierarchical forecasting with statistical and econometric methods
+- [Reconciliation Methods](https://nixtlaverse.nixtla.io/hierarchicalforecast/methods.html.md)
+- [Probabilistic Methods](https://nixtlaverse.nixtla.io/hierarchicalforecast/probabilistic_methods.html.md)
+- [Aggregation/Visualization Utils](https://nixtlaverse.nixtla.io/hierarchicalforecast/utils.html.md)
+- [Nixtlaverse](https://nixtlaverse.nixtla.io/index.md)
+- [Auto](https://nixtlaverse.nixtla.io/mlforecast/auto.html.md)
+- [Callbacks](https://nixtlaverse.nixtla.io/mlforecast/callbacks.html.md): Utility functions use in the predict step.
+- [Core](https://nixtlaverse.nixtla.io/mlforecast/core.html.md)
+- [Distributed Forecast](https://nixtlaverse.nixtla.io/mlforecast/distributed.forecast.html.md): Distributed pipeline encapsulation
+- [DaskLGBMForecast](https://nixtlaverse.nixtla.io/mlforecast/distributed.models.dask.lgb.html.md): dask LightGBM forecaster
+- [DaskXGBForecast](https://nixtlaverse.nixtla.io/mlforecast/distributed.models.dask.xgb.html.md): dask XGBoost forecaster
+- [RayLGBMForecast](https://nixtlaverse.nixtla.io/mlforecast/distributed.models.ray.lgb.html.md): ray LightGBM forecaster
+- [RayXGBForecast](https://nixtlaverse.nixtla.io/mlforecast/distributed.models.ray.xgb.html.md): ray XGBoost forecaster
+- [SparkLGBMForecast](https://nixtlaverse.nixtla.io/mlforecast/distributed.models.spark.lgb.html.md): spark LightGBM forecaster
+- [SparkXGBForecast](https://nixtlaverse.nixtla.io/mlforecast/distributed.models.spark.xgb.html.md): spark XGBoost forecaster
+- [End to end walkthrough](https://nixtlaverse.nixtla.io/mlforecast/docs/getting-started/end_to_end_walkthrough.html.md)
+- [Install](https://nixtlaverse.nixtla.io/mlforecast/docs/getting-started/install.html.md)
+- [Quick start (distributed)](https://nixtlaverse.nixtla.io/mlforecast/docs/getting-started/quick_start_distributed.html.md)
+- [Quick start (local)](https://nixtlaverse.nixtla.io/mlforecast/docs/getting-started/quick_start_local.html.md)
+- [Analyzing the trained models](https://nixtlaverse.nixtla.io/mlforecast/docs/how-to-guides/analyzing_models.html.md)
+- [Cross validation](https://nixtlaverse.nixtla.io/mlforecast/docs/how-to-guides/cross_validation.html.md)
+- [Custom date features](https://nixtlaverse.nixtla.io/mlforecast/docs/how-to-guides/custom_date_features.html.md)
+- [Custom training](https://nixtlaverse.nixtla.io/mlforecast/docs/how-to-guides/custom_training.html.md)
+- [Exogenous features](https://nixtlaverse.nixtla.io/mlforecast/docs/how-to-guides/exogenous_features.html.md)
+- [Hyperparameter optimization](https://nixtlaverse.nixtla.io/mlforecast/docs/how-to-guides/hyperparameter_optimization.html.md)
+- [Lag transformations](https://nixtlaverse.nixtla.io/mlforecast/docs/how-to-guides/lag_transforms_guide.html.md)
+- [MLflow](https://nixtlaverse.nixtla.io/mlforecast/docs/how-to-guides/mlflow.html.md)
+- [One model per step](https://nixtlaverse.nixtla.io/mlforecast/docs/how-to-guides/one_model_per_horizon.html.md)
+- [Predict callbacks](https://nixtlaverse.nixtla.io/mlforecast/docs/how-to-guides/predict_callbacks.html.md)
+- [Predicting a subset of ids](https://nixtlaverse.nixtla.io/mlforecast/docs/how-to-guides/predict_subset.html.md)
+- [Probabilistic forecasting](https://nixtlaverse.nixtla.io/mlforecast/docs/how-to-guides/prediction_intervals.html.md)
+- [Sample weights](https://nixtlaverse.nixtla.io/mlforecast/docs/how-to-guides/sample_weights.html.md)
+- [Using scikit-learn pipelines](https://nixtlaverse.nixtla.io/mlforecast/docs/how-to-guides/sklearn_pipelines.html.md)
+- [Target transformations](https://nixtlaverse.nixtla.io/mlforecast/docs/how-to-guides/target_transforms_guide.html.md)
+- [Training with numpy arrays](https://nixtlaverse.nixtla.io/mlforecast/docs/how-to-guides/training_with_numpy.html.md)
+- [Transfer Learning](https://nixtlaverse.nixtla.io/mlforecast/docs/how-to-guides/transfer_learning.html.md)
+- [Transforming exogenous features](https://nixtlaverse.nixtla.io/mlforecast/docs/how-to-guides/transforming_exog.html.md)
+- [Electricity Load Forecast](https://nixtlaverse.nixtla.io/mlforecast/docs/tutorials/electricity_load_forecasting.html.md)
+- [Detect Demand Peaks](https://nixtlaverse.nixtla.io/mlforecast/docs/tutorials/electricity_peak_forecasting.html.md)
+- [Incremental Forecast generation](https://nixtlaverse.nixtla.io/mlforecast/docs/tutorials/incremental_forecasting.html.md)
+- [M4 Competition](https://nixtlaverse.nixtla.io/mlforecast/docs/tutorials/m4.html.md)
+- [Prediction intervals](https://nixtlaverse.nixtla.io/mlforecast/docs/tutorials/prediction_intervals_in_forecasting_models.html.md)
+- [Feature engineering](https://nixtlaverse.nixtla.io/mlforecast/feature_engineering.html.md): Compute transformations on exogenous regressors
+- [MLForecast](https://nixtlaverse.nixtla.io/mlforecast/forecast.html.md): Full pipeline encapsulation
+- [Grouped Array](https://nixtlaverse.nixtla.io/mlforecast/grouped_array.md): Something abou `Grouped Array`
+- [Machine Learning 🤖 Forecast](https://nixtlaverse.nixtla.io/mlforecast/index.html.md): Scalable machine learning for time series forecasting
+- [Lag transforms](https://nixtlaverse.nixtla.io/mlforecast/lag_transforms.html.md): Built-in lag transformations
+- [LightGBMCV](https://nixtlaverse.nixtla.io/mlforecast/lgb_cv.html.md): Time series cross validation with LightGBM.
+- [Optimization](https://nixtlaverse.nixtla.io/mlforecast/optimization.html.md): Utilities for hyperparameter optimization
+- [Target transforms](https://nixtlaverse.nixtla.io/mlforecast/target_transforms.html.md)
+- [Utils](https://nixtlaverse.nixtla.io/mlforecast/utils.html.md)
+- [Hyperparameter Optimization](https://nixtlaverse.nixtla.io/neuralforecast/common.base_auto.html.md): BaseAuto class for hyperparameter optimization in NeuralForecast. Integrates Optuna, HyperOpt, Dragonfly through Ray for automated model tuning with cross-validation.
+- [NN Modules](https://nixtlaverse.nixtla.io/neuralforecast/common.modules.html.md): Neural network building blocks for NeuralForecast: MLP layers, temporal convolutions, Transformer encoders-decoders, attention mechanisms, and embeddings.
+- [TemporalNorm](https://nixtlaverse.nixtla.io/neuralforecast/common.scalers.html.md): TemporalNorm: Temporal normalization techniques for neural forecasting. Scalers include standard, robust, invariant, and RevIN for distribution shift handling.
+- [Core](https://nixtlaverse.nixtla.io/neuralforecast/core.html.md): NeuralForecast core class for high-level time series forecasting. Fits multiple PyTorch models on pandas DataFrames with parallelization and distributed computation.
+- [NeuralForecast Map](https://nixtlaverse.nixtla.io/neuralforecast/docs/api-reference/neuralforecast_map.html.md)
+- [Cross-validation](https://nixtlaverse.nixtla.io/neuralforecast/docs/capabilities/cross_validation.html.md)
+- [Exogenous Variables](https://nixtlaverse.nixtla.io/neuralforecast/docs/capabilities/exogenous_variables.html.md)
+- [Hyperparameter Optimization](https://nixtlaverse.nixtla.io/neuralforecast/docs/capabilities/hyperparameter_tuning.html.md)
+- [Optimization Objectives](https://nixtlaverse.nixtla.io/neuralforecast/docs/capabilities/objectives.html.md)
+- [Forecasting Models](https://nixtlaverse.nixtla.io/neuralforecast/docs/capabilities/overview.html.md)
+- [Predict Insample](https://nixtlaverse.nixtla.io/neuralforecast/docs/capabilities/predictInsample.html.md)
+- [Save and Load Models](https://nixtlaverse.nixtla.io/neuralforecast/docs/capabilities/save_load_models.html.md)
+- [Time Series Scaling](https://nixtlaverse.nixtla.io/neuralforecast/docs/capabilities/time_series_scaling.html.md)
+- [Data Requirements](https://nixtlaverse.nixtla.io/neuralforecast/docs/getting-started/datarequirements.html.md)
+- [Installation](https://nixtlaverse.nixtla.io/neuralforecast/docs/getting-started/installation.html.md)
+- [About NeuralForecast](https://nixtlaverse.nixtla.io/neuralforecast/docs/getting-started/introduction.html.md)
+- [Quickstart](https://nixtlaverse.nixtla.io/neuralforecast/docs/getting-started/quickstart.html.md)
+- [Adding Models to NeuralForecast](https://nixtlaverse.nixtla.io/neuralforecast/docs/tutorials/adding_models.html.md)
+- [Statistical, Machine Learning and Neural Forecasting methods](https://nixtlaverse.nixtla.io/neuralforecast/docs/tutorials/comparing_methods.html.md)
+- [Modify the configure_optimizers() behavior of NeuralForecast models](https://nixtlaverse.nixtla.io/neuralforecast/docs/tutorials/configure_optimizers.html.md)
+- [Uncertainty quantification with Conformal Prediction](https://nixtlaverse.nixtla.io/neuralforecast/docs/tutorials/conformal_prediction.html.md)
+- [Cross-validation](https://nixtlaverse.nixtla.io/neuralforecast/docs/tutorials/cross_validation.html.md)
+- [Distributed Training](https://nixtlaverse.nixtla.io/neuralforecast/docs/tutorials/distributed_neuralforecast.html.md)
+- [Explainability for Deep Learning Forecasting Models](https://nixtlaverse.nixtla.io/neuralforecast/docs/tutorials/explainability.html.md)
+- [Forecasting with TFT: Temporal Fusion Transformer](https://nixtlaverse.nixtla.io/neuralforecast/docs/tutorials/forecasting_tft.html.md)
+- [End to End Walkthrough](https://nixtlaverse.nixtla.io/neuralforecast/docs/tutorials/getting_started_complete.html.md)
+- [Hierarchical Forecast](https://nixtlaverse.nixtla.io/neuralforecast/docs/tutorials/hierarchical_forecasting.html.md)
+- [Intermittent Data](https://nixtlaverse.nixtla.io/neuralforecast/docs/tutorials/intermittent_data.html.md)
+- [Interpretable Decompositions](https://nixtlaverse.nixtla.io/neuralforecast/docs/tutorials/interpretable_decompositions.html.md)
+- [Using Large Datasets](https://nixtlaverse.nixtla.io/neuralforecast/docs/tutorials/large_datasets.html.md)
+- [Long-Horizon Forecasting with NHITS](https://nixtlaverse.nixtla.io/neuralforecast/docs/tutorials/longhorizon_nhits.html.md)
+- [Long-Horizon Probabilistic Forecasting](https://nixtlaverse.nixtla.io/neuralforecast/docs/tutorials/longhorizon_probabilistic.html.md)
+- [Long-Horizon Forecasting with Transformer models](https://nixtlaverse.nixtla.io/neuralforecast/docs/tutorials/longhorizon_transformers.html.md)
+- [Multivariate Forecasting with TSMixer](https://nixtlaverse.nixtla.io/neuralforecast/docs/tutorials/multivariate_tsmixer.html.md)
+- [Robust Forecasting](https://nixtlaverse.nixtla.io/neuralforecast/docs/tutorials/robust_forecasting.html.md)
+- [Temporal Classification](https://nixtlaverse.nixtla.io/neuralforecast/docs/tutorials/temporal_classification.html.md)
+- [Transfer Learning](https://nixtlaverse.nixtla.io/neuralforecast/docs/tutorials/transfer_learning.html.md)
+- [Probabilistic Forecasting](https://nixtlaverse.nixtla.io/neuralforecast/docs/tutorials/uncertainty_quantification.html.md)
+- [Using MLflow](https://nixtlaverse.nixtla.io/neuralforecast/docs/tutorials/using_mlflow.html.md)
+- [Detect Demand Peaks](https://nixtlaverse.nixtla.io/neuralforecast/docs/use-cases/electricity_peak_forecasting.html.md)
+- [Predictive Maintenance](https://nixtlaverse.nixtla.io/neuralforecast/docs/use-cases/predictive_maintenance.html.md)
+- [NumPy Evaluation](https://nixtlaverse.nixtla.io/neuralforecast/losses.numpy.html.md): Comprehensive NumPy evaluation metrics for NeuralForecast including MAE, MSE, MAPE, MASE, and probabilistic losses for time series forecast accuracy.
+- [PyTorch Losses](https://nixtlaverse.nixtla.io/neuralforecast/losses.pytorch.html.md): PyTorch loss functions for neural forecast training: MAE, MSE, MAPE, quantile losses, distribution losses, and robust losses for model optimization.
+- [Autoformer](https://nixtlaverse.nixtla.io/neuralforecast/models.autoformer.html.md): Autoformer: Transformer with auto-correlation mechanism and progressive decomposition for reliable long-horizon time series forecasting with trend-seasonality.
+- [BiTCN](https://nixtlaverse.nixtla.io/neuralforecast/models.bitcn.html.md): BiTCN: Bidirectional Temporal Convolutional Network for forecasting. Parameter-efficient architecture with forward-backward encoding for probabilistic predictions.
+- [DeepAR](https://nixtlaverse.nixtla.io/neuralforecast/models.deepar.html.md): DeepAR: Probabilistic autoregressive RNN for forecasting. Uses Monte Carlo sampling with distribution outputs for uncertainty quantification in time series.
+- [DeepNPTS](https://nixtlaverse.nixtla.io/neuralforecast/models.deepnpts.html.md): DeepNPTS: Deep Non-Parametric Time Series forecaster that samples from empirical distributions. Strong baseline for probabilistic forecasting tasks.
+- [Dilated RNN](https://nixtlaverse.nixtla.io/neuralforecast/models.dilated_rnn.html.md): Dilated RNN: Recurrent neural network with dilated skip connections for modeling long sequences. Addresses vanishing gradients and improves computational efficiency.
+- [DLinear](https://nixtlaverse.nixtla.io/neuralforecast/models.dlinear.html.md): DLinear model: Simple, fast linear architecture with trend-seasonality decomposition for accurate long-horizon time series forecasting with minimal complexity.
+- [FEDformer](https://nixtlaverse.nixtla.io/neuralforecast/models.fedformer.html.md): FEDformer: Frequency Enhanced Decomposition transformer for long-term forecasting using Fourier transform and sparse attention in frequency domain.
+- [GRU](https://nixtlaverse.nixtla.io/neuralforecast/models.gru.html.md): GRU: Gated Recurrent Unit model for sequential forecasting. Improves upon LSTM with simplified gating mechanism and MLP decoder for time series predictions.
+- [HINT](https://nixtlaverse.nixtla.io/neuralforecast/models.hint.html.md): HINT: Hierarchical Mixture Networks for coherent probabilistic forecasting. Combines neural architectures with reconciliation for hierarchical time series.
+- [Automatic Forecasting](https://nixtlaverse.nixtla.io/neuralforecast/models.html.md): AutoModel classes for NeuralForecast hyperparameter optimization. Automated grid search, Bayesian optimization with Ray Tune for 34 forecasting architectures.
+- [Informer](https://nixtlaverse.nixtla.io/neuralforecast/models.informer.html.md): Informer: Efficient Transformer with ProbSparse attention for long-sequence time series forecasting. Reduces O(L^2) complexity for scalable predictions.
+- [iTransformer](https://nixtlaverse.nixtla.io/neuralforecast/models.itransformer.html.md): iTransformer: Inverted Transformer architecture for multivariate time series forecasting with attention on time points and feed-forward on series dimensions.
+- [KAN](https://nixtlaverse.nixtla.io/neuralforecast/models.kan.html.md): KAN: Kolmogorov-Arnold Networks for time series forecasting. MLP alternative using learnable activation functions for improved non-linear pattern modeling.
+- [LSTM](https://nixtlaverse.nixtla.io/neuralforecast/models.lstm.html.md): LSTM: Long Short-Term Memory network for sequential forecasting. Multilayer encoder-decoder architecture that addresses vanishing gradients in time series.
+- [MLP](https://nixtlaverse.nixtla.io/neuralforecast/models.mlp.html.md): MLP: Multi-Layer Perceptron for time series forecasting. Simple feedforward neural network with ReLU activations and autoregressive structure for predictions.
+- [MLPMultivariate](https://nixtlaverse.nixtla.io/neuralforecast/models.mlpmultivariate.html.md): MLPMultivariate: Multi-Layer Perceptron for joint multivariate forecasting. Predicts all time series simultaneously with shared feedforward neural network layers.
+- [NBEATS](https://nixtlaverse.nixtla.io/neuralforecast/models.nbeats.html.md): NBEATS: Neural Basis Expansion Analysis with interpretable or generic configurations. MLP-based architecture with residual links for M3/M4 competition performance.
+- [NBEATSx](https://nixtlaverse.nixtla.io/neuralforecast/models.nbeatsx.html.md): NBEATSx: Neural Basis Expansion Analysis with exogenous variables. MLP-based architecture with interpretable trend-seasonality blocks for forecasting.
+- [NHITS](https://nixtlaverse.nixtla.io/neuralforecast/models.nhits.html.md): NHITS: Neural Hierarchical Interpolation for Time Series. MLP architecture with multi-rate processing for long-horizon forecasting, 50x faster than Informer.
+- [NLinear](https://nixtlaverse.nixtla.io/neuralforecast/models.nlinear.html.md): NLinear: Normalized linear model for long-horizon forecasting. Handles distribution shifts with simple subtraction-addition normalization for robust predictions.
+- [PatchTST](https://nixtlaverse.nixtla.io/neuralforecast/models.patchtst.html.md): PatchTST: Efficient Transformer model for multivariate forecasting using patched time series and channel-independence for scalable long-term predictions.
+- [Reversible Mixture of KAN - RMoK](https://nixtlaverse.nixtla.io/neuralforecast/models.rmok.html.md): RMoK: Reversible Mixture of Kolmogorov-Arnold Networks. Combines Taylor, Jacobi, and wavelet functions for expressive time series forecasting with reversibility.
+- [RNN](https://nixtlaverse.nixtla.io/neuralforecast/models.rnn.html.md): RNN: Classic Elman Recurrent Neural Network for sequential forecasting. Multilayer architecture with tanh/ReLU activations and MLP decoder for time series.
+- [SOFTS](https://nixtlaverse.nixtla.io/neuralforecast/models.softs.html.md): SOFTS: Spectral Optimal Fourier Transform model for multivariate time series forecasting using frequency-domain analysis and temporal pattern recognition.
+- [StemGNN](https://nixtlaverse.nixtla.io/neuralforecast/models.stemgnn.html.md): StemGNN: Spectral Temporal Graph Neural Network for multivariate forecasting. Learns temporal dependencies and inter-series correlations in spectral domain.
+- [TCN](https://nixtlaverse.nixtla.io/neuralforecast/models.tcn.html.md): TCN: Temporal Convolutional Network with dilated causal convolutions for efficient sequential forecasting. Captures long-range dependencies with ReLU activations.
+- [TFT](https://nixtlaverse.nixtla.io/neuralforecast/models.tft.html.md): TFT: Temporal Fusion Transformer with interpretable multi-horizon forecasting. LSTM encoder, multi-head attention, variable selection for complex time series.
+- [TiDE](https://nixtlaverse.nixtla.io/neuralforecast/models.tide.html.md): TiDE: Time-series Dense Encoder with MLP-based architecture. Encoder-decoder model for long-term univariate forecasting with exogenous input support.
+- [Time-LLM](https://nixtlaverse.nixtla.io/neuralforecast/models.timellm.html.md): Time-LLM: Reprograms large language models for time series forecasting. Transforms forecasting tasks into language tasks using off-the-shelf LLM backbones.
+- [TimeMixer](https://nixtlaverse.nixtla.io/neuralforecast/models.timemixer.html.md): TimeMixer: Temporal mixing architecture for multivariate time series forecasting with multi-scale decomposition and frequency-domain feature extraction.
+- [TimesNet](https://nixtlaverse.nixtla.io/neuralforecast/models.timesnet.html.md): TimesNet: 2D-variation modeling with Inception blocks for capturing intraperiod and interperiod temporal patterns in univariate time series forecasting.
+- [TimeXer](https://nixtlaverse.nixtla.io/neuralforecast/models.timexer.html.md): TimeXer: Cross-series attention transformer for multivariate forecasting with patch-based processing and exogenous variable support for complex temporal patterns.
+- [TSMixer](https://nixtlaverse.nixtla.io/neuralforecast/models.tsmixer.html.md): TSMixer: MLP-based multivariate forecasting with time and feature mixing. Stacked mixing layers learn temporal and cross-sectional representations jointly.
+- [TSMixerx](https://nixtlaverse.nixtla.io/neuralforecast/models.tsmixerx.html.md): TSMixerx: TSMixer with exogenous variables. MLP-based multivariate forecasting combines temporal-feature mixing with static and future covariate support.
+- [Vanilla Transformer](https://nixtlaverse.nixtla.io/neuralforecast/models.vanillatransformer.html.md): Vanilla Transformer: Classic attention-based architecture for time series. Full O(L^2) attention mechanism with encoder-decoder for long-sequence forecasting.
+- [PyTorch Dataset/Loader](https://nixtlaverse.nixtla.io/neuralforecast/tsdataset.html.md): PyTorch Dataset and DataLoader classes for time series. TimeSeriesDataset and TimeSeriesDataModule for efficient batch processing with Lightning integration.
+- [Example Data](https://nixtlaverse.nixtla.io/neuralforecast/utils.html.md): NeuralForecast utility functions and datasets. Includes AirPassengers data, time feature generation, prediction intervals, and synthetic panel data generators.
+- [StatsForecast Blog](https://nixtlaverse.nixtla.io/statsforecast/blog/index.html.md)
+- [Scalable Time Series Modeling with open-source projects](https://nixtlaverse.nixtla.io/statsforecast/blog/posts/2022-10-05-distributed-fugue/index.html.md): How to Forecast 1M Time Series in 15 Minutes with Spark, Fugue and Nixtla's Statsforecast.
+- [Contribute to Nixtla](https://nixtlaverse.nixtla.io/statsforecast/docs/contribute/contribute.html.md)
+- [Nixtla Documentation](https://nixtlaverse.nixtla.io/statsforecast/docs/contribute/docs.html.md)
+- [Understanding Issue Labels](https://nixtlaverse.nixtla.io/statsforecast/docs/contribute/issue-labels.html.md)
+- [Submit an Issue 📢](https://nixtlaverse.nixtla.io/statsforecast/docs/contribute/issues.html.md)
+- [Step-by-step Contribution Guide](https://nixtlaverse.nixtla.io/statsforecast/docs/contribute/step-by-step.html.md): This document contains instructions for collaborating on the different libraries of Nixtla.
+- [Contributing Code to Nixtla Development](https://nixtlaverse.nixtla.io/statsforecast/docs/contribute/techstack.html.md): A guide on the technical skills and tools needed to contribute code to the Nixtla project.
+- [Dask](https://nixtlaverse.nixtla.io/statsforecast/docs/distributed/dask.html.md)
+- [Ray](https://nixtlaverse.nixtla.io/statsforecast/docs/distributed/ray.html.md)
+- [Spark](https://nixtlaverse.nixtla.io/statsforecast/docs/distributed/spark.html.md)
+- [Amazon Forecast vs StatsForecast](https://nixtlaverse.nixtla.io/statsforecast/docs/experiments/amazonstatsforecast.html.md)
+- [AutoARIMA Comparison (Prophet and pmdarima)](https://nixtlaverse.nixtla.io/statsforecast/docs/experiments/autoarima_vs_prophet.html.md)
+- [Forecasting at Scale using ETS and ray (M5)](https://nixtlaverse.nixtla.io/statsforecast/docs/experiments/ets_ray_m5.html.md)
+- [StatsForecast ETS and Facebook Prophet on Spark (M5)](https://nixtlaverse.nixtla.io/statsforecast/docs/experiments/prophet_spark_m5.html.md)
+- [End to End Walkthrough](https://nixtlaverse.nixtla.io/statsforecast/docs/getting-started/getting_started_complete.html.md)
+- [End to End Walkthrough with Polars](https://nixtlaverse.nixtla.io/statsforecast/docs/getting-started/getting_started_complete_polars.html.md)
+- [Quick Start](https://nixtlaverse.nixtla.io/statsforecast/docs/getting-started/getting_started_short.html.md)
+- [Install](https://nixtlaverse.nixtla.io/statsforecast/docs/getting-started/installation.html.md)
+- [Automatic Time Series Forecasting](https://nixtlaverse.nixtla.io/statsforecast/docs/how-to-guides/automatic_forecasting.html.md)
+- [Exogenous Regressors](https://nixtlaverse.nixtla.io/statsforecast/docs/how-to-guides/exogenous.html.md)
+- [Generating features](https://nixtlaverse.nixtla.io/statsforecast/docs/how-to-guides/generating_features.html.md)
+- [Numba caching](https://nixtlaverse.nixtla.io/statsforecast/docs/how-to-guides/numba_cache.html.md)
+- [Sklearn models](https://nixtlaverse.nixtla.io/statsforecast/docs/how-to-guides/sklearn_models.html.md)
+- [ADIDA Model](https://nixtlaverse.nixtla.io/statsforecast/docs/models/adida.html.md)
+- [ARCH Model](https://nixtlaverse.nixtla.io/statsforecast/docs/models/arch.html.md)
+- [ARIMA Model](https://nixtlaverse.nixtla.io/statsforecast/docs/models/arima.html.md)
+- [AutoARIMA Model](https://nixtlaverse.nixtla.io/statsforecast/docs/models/autoarima.html.md)
+- [AutoCES Model](https://nixtlaverse.nixtla.io/statsforecast/docs/models/autoces.html.md)
+- [AutoETS Model](https://nixtlaverse.nixtla.io/statsforecast/docs/models/autoets.html.md)
+- [AutoRegressive Model](https://nixtlaverse.nixtla.io/statsforecast/docs/models/autoregressive.html.md)
+- [AutoTheta Model](https://nixtlaverse.nixtla.io/statsforecast/docs/models/autotheta.html.md)
+- [CrostonClassic Model](https://nixtlaverse.nixtla.io/statsforecast/docs/models/crostonclassic.html.md)
+- [CrostonOptimized Model](https://nixtlaverse.nixtla.io/statsforecast/docs/models/crostonoptimized.html.md)
+- [CrostonSBA Model](https://nixtlaverse.nixtla.io/statsforecast/docs/models/crostonsba.html.md)
+- [Dynamic Optimized Theta Model](https://nixtlaverse.nixtla.io/statsforecast/docs/models/dynamicoptimizedtheta.html.md)
+- [Dynamic Standard Theta Model](https://nixtlaverse.nixtla.io/statsforecast/docs/models/dynamicstandardtheta.html.md)
+- [GARCH Model](https://nixtlaverse.nixtla.io/statsforecast/docs/models/garch.html.md)
+- [Holt Model](https://nixtlaverse.nixtla.io/statsforecast/docs/models/holt.html.md)
+- [Holt Winters Model](https://nixtlaverse.nixtla.io/statsforecast/docs/models/holtwinters.html.md)
+- [IMAPA Model](https://nixtlaverse.nixtla.io/statsforecast/docs/models/imapa.html.md)
+- [MFLES](https://nixtlaverse.nixtla.io/statsforecast/docs/models/mfles.html.md)
+- [Multiple Seasonal Trend (MSTL)](https://nixtlaverse.nixtla.io/statsforecast/docs/models/multipleseasonaltrend.html.md)
+- [Optimized Theta Model](https://nixtlaverse.nixtla.io/statsforecast/docs/models/optimizedtheta.html.md)
+- [Seasonal Exponential Smoothing Model](https://nixtlaverse.nixtla.io/statsforecast/docs/models/seasonalexponentialsmoothing.html.md)
+- [Seasonal Exponential Smoothing Optimized Model](https://nixtlaverse.nixtla.io/statsforecast/docs/models/seasonalexponentialsmoothingoptimized.html.md)
+- [Simple Exponential Smoothing Optimized Model](https://nixtlaverse.nixtla.io/statsforecast/docs/models/simpleexponentialoptimized.html.md)
+- [Simple Exponential Smoothing Model](https://nixtlaverse.nixtla.io/statsforecast/docs/models/simpleexponentialsmoothing.html.md)
+- [Standard Theta Model](https://nixtlaverse.nixtla.io/statsforecast/docs/models/standardtheta.html.md)
+- [TSB Model](https://nixtlaverse.nixtla.io/statsforecast/docs/models/tsb.html.md)
+- [Anomaly Detection](https://nixtlaverse.nixtla.io/statsforecast/docs/tutorials/anomalydetection.html.md)
+- [Conformal Prediction](https://nixtlaverse.nixtla.io/statsforecast/docs/tutorials/conformalprediction.html.md)
+- [Cross validation](https://nixtlaverse.nixtla.io/statsforecast/docs/tutorials/crossvalidation.html.md)
+- [Electricity Load Forecast](https://nixtlaverse.nixtla.io/statsforecast/docs/tutorials/electricityloadforecasting.html.md)
+- [Detect Demand Peaks](https://nixtlaverse.nixtla.io/statsforecast/docs/tutorials/electricitypeakforecasting.html.md)
+- [Volatility forecasting (GARCH & ARCH)](https://nixtlaverse.nixtla.io/statsforecast/docs/tutorials/garch_tutorial.html.md)
+- [Intermittent or Sparse Data](https://nixtlaverse.nixtla.io/statsforecast/docs/tutorials/intermittentdata.html.md)
+- [MLFlow](https://nixtlaverse.nixtla.io/statsforecast/docs/tutorials/mlflow.html.md)
+- [Multiple seasonalities](https://nixtlaverse.nixtla.io/statsforecast/docs/tutorials/multipleseasonalities.html.md)
+- [Statistical, Machine Learning and Neural Forecasting methods](https://nixtlaverse.nixtla.io/statsforecast/docs/tutorials/statisticalneuralmethods.html.md)
+- [Probabilistic Forecasting](https://nixtlaverse.nixtla.io/statsforecast/docs/tutorials/uncertaintyintervals.html.md)
+- [Statistical ⚡️ Forecast](https://nixtlaverse.nixtla.io/statsforecast/index.html.md): Lightning fast forecasting with statistical and econometric models
+- [Core Methods](https://nixtlaverse.nixtla.io/statsforecast/src/core/core.html.md): Methods for Fit, Predict, Forecast (fast), Cross Validation and plotting
+- [Fugue Backend](https://nixtlaverse.nixtla.io/statsforecast/src/core/distributed.fugue.html.md)
+- [Models](https://nixtlaverse.nixtla.io/statsforecast/src/core/models.html.md): Models currently supported by StatsForecast
+- [StatsForecast's Models](https://nixtlaverse.nixtla.io/statsforecast/src/core/models_intro.html.md)
+- [Feature engineering](https://nixtlaverse.nixtla.io/statsforecast/src/feature_engineering.html.md): Generate features for downstream models
+- [Data](https://nixtlaverse.nixtla.io/utilsforecast/data.html.md): Utilies for generating time series datasets
+- [Evaluation](https://nixtlaverse.nixtla.io/utilsforecast/evaluation.html.md): Model performance evaluation
+- [Feature Engineering](https://nixtlaverse.nixtla.io/utilsforecast/feature_engineering.html.md): Create exogenous regressors for your models
+- [utilsforecast](https://nixtlaverse.nixtla.io/utilsforecast/index.html.md): Forecasting utilities
+- [Losses](https://nixtlaverse.nixtla.io/utilsforecast/losses.html.md): Loss functions for model evaluation.
+- [Plotting](https://nixtlaverse.nixtla.io/utilsforecast/plotting.html.md): Time series visualizations
+- [Preprocessing](https://nixtlaverse.nixtla.io/utilsforecast/preprocessing.html.md): Utilities for processing data before training/analysis
+
+
+## Optional
+
+- [TimeGPT](https://nixtla.io/docs)

@@ -1,0 +1,69 @@
+﻿kind,name,module,qualname,doc,family,library,namespace,submodule_head,submodule
+auto_model,AutoBiTCN,neuralforecast.auto,neuralforecast.auto.AutoBiTCN,"Class for Automatic Hyperparameter Optimization, it builds on top of `ray` to",CNN,neuralforecast,auto,,
+auto_model,AutoTCN,neuralforecast.auto,neuralforecast.auto.AutoTCN,"Class for Automatic Hyperparameter Optimization, it builds on top of `ray` to",CNN,neuralforecast,auto,,
+auto_model,AutoTimesNet,neuralforecast.auto,neuralforecast.auto.AutoTimesNet,"Class for Automatic Hyperparameter Optimization, it builds on top of `ray` to",CNN,neuralforecast,auto,,
+auto_model,AutoDLinear,neuralforecast.auto,neuralforecast.auto.AutoDLinear,"Class for Automatic Hyperparameter Optimization, it builds on top of `ray` to",Linear/MLP,neuralforecast,auto,,
+auto_model,AutoMLP,neuralforecast.auto,neuralforecast.auto.AutoMLP,"Class for Automatic Hyperparameter Optimization, it builds on top of `ray` to",Linear/MLP,neuralforecast,auto,,
+auto_model,AutoMLPMultivariate,neuralforecast.auto,neuralforecast.auto.AutoMLPMultivariate,"Class for Automatic Hyperparameter Optimization, it builds on top of `ray` to",Linear/MLP,neuralforecast,auto,,
+auto_model,AutoNLinear,neuralforecast.auto,neuralforecast.auto.AutoNLinear,"Class for Automatic Hyperparameter Optimization, it builds on top of `ray` to",Linear/MLP,neuralforecast,auto,,
+auto_model,AutoTSMixer,neuralforecast.auto,neuralforecast.auto.AutoTSMixer,"Class for Automatic Hyperparameter Optimization, it builds on top of `ray` to",Linear/MLP,neuralforecast,auto,,
+auto_model,AutoTSMixerx,neuralforecast.auto,neuralforecast.auto.AutoTSMixerx,"Class for Automatic Hyperparameter Optimization, it builds on top of `ray` to",Linear/MLP,neuralforecast,auto,,
+auto_model,AutoDilatedRNN,neuralforecast.auto,neuralforecast.auto.AutoDilatedRNN,"Class for Automatic Hyperparameter Optimization, it builds on top of `ray` to",RNN,neuralforecast,auto,,
+auto_model,AutoGRU,neuralforecast.auto,neuralforecast.auto.AutoGRU,"Class for Automatic Hyperparameter Optimization, it builds on top of `ray` to",RNN,neuralforecast,auto,,
+auto_model,AutoLSTM,neuralforecast.auto,neuralforecast.auto.AutoLSTM,"Class for Automatic Hyperparameter Optimization, it builds on top of `ray` to",RNN,neuralforecast,auto,,
+auto_model,AutoxLSTM,neuralforecast.auto,neuralforecast.auto.AutoxLSTM,"Class for Automatic Hyperparameter Optimization, it builds on top of `ray` to",RNN,neuralforecast,auto,,
+auto_model,AutoDeepAR,neuralforecast.auto,neuralforecast.auto.AutoDeepAR,"Class for Automatic Hyperparameter Optimization, it builds on top of `ray` to",Specialized,neuralforecast,auto,,
+auto_model,AutoDeepNPTS,neuralforecast.auto,neuralforecast.auto.AutoDeepNPTS,"Class for Automatic Hyperparameter Optimization, it builds on top of `ray` to",Specialized,neuralforecast,auto,,
+auto_model,AutoHINT,neuralforecast.auto,neuralforecast.auto.AutoHINT,"Class for Automatic Hyperparameter Optimization, it builds on top of `ray` to",Specialized,neuralforecast,auto,,
+auto_model,AutoKAN,neuralforecast.auto,neuralforecast.auto.AutoKAN,"Class for Automatic Hyperparameter Optimization, it builds on top of `ray` to",Specialized,neuralforecast,auto,,
+auto_model,AutoNBEATS,neuralforecast.auto,neuralforecast.auto.AutoNBEATS,"Class for Automatic Hyperparameter Optimization, it builds on top of `ray` to",Specialized,neuralforecast,auto,,
+auto_model,AutoNBEATSx,neuralforecast.auto,neuralforecast.auto.AutoNBEATSx,"Class for Automatic Hyperparameter Optimization, it builds on top of `ray` to",Specialized,neuralforecast,auto,,
+auto_model,AutoNHITS,neuralforecast.auto,neuralforecast.auto.AutoNHITS,"Class for Automatic Hyperparameter Optimization, it builds on top of `ray` to",Specialized,neuralforecast,auto,,
+auto_model,AutoRMoK,neuralforecast.auto,neuralforecast.auto.AutoRMoK,"Class for Automatic Hyperparameter Optimization, it builds on top of `ray` to",Specialized,neuralforecast,auto,,
+auto_model,AutoRNN,neuralforecast.auto,neuralforecast.auto.AutoRNN,"Class for Automatic Hyperparameter Optimization, it builds on top of `ray` to",Specialized,neuralforecast,auto,,
+auto_model,AutoSOFTS,neuralforecast.auto,neuralforecast.auto.AutoSOFTS,"Class for Automatic Hyperparameter Optimization, it builds on top of `ray` to",Specialized,neuralforecast,auto,,
+auto_model,AutoStemGNN,neuralforecast.auto,neuralforecast.auto.AutoStemGNN,"Class for Automatic Hyperparameter Optimization, it builds on top of `ray` to",Specialized,neuralforecast,auto,,
+auto_model,AutoTiDE,neuralforecast.auto,neuralforecast.auto.AutoTiDE,"Class for Automatic Hyperparameter Optimization, it builds on top of `ray` to",Specialized,neuralforecast,auto,,
+auto_model,AutoTimeMixer,neuralforecast.auto,neuralforecast.auto.AutoTimeMixer,"Class for Automatic Hyperparameter Optimization, it builds on top of `ray` to",Specialized,neuralforecast,auto,,
+auto_model,AutoAutoformer,neuralforecast.auto,neuralforecast.auto.AutoAutoformer,"Class for Automatic Hyperparameter Optimization, it builds on top of `ray` to",Transformer,neuralforecast,auto,,
+auto_model,AutoFEDformer,neuralforecast.auto,neuralforecast.auto.AutoFEDformer,"Class for Automatic Hyperparameter Optimization, it builds on top of `ray` to",Transformer,neuralforecast,auto,,
+auto_model,AutoInformer,neuralforecast.auto,neuralforecast.auto.AutoInformer,"Class for Automatic Hyperparameter Optimization, it builds on top of `ray` to",Transformer,neuralforecast,auto,,
+auto_model,AutoPatchTST,neuralforecast.auto,neuralforecast.auto.AutoPatchTST,"Class for Automatic Hyperparameter Optimization, it builds on top of `ray` to",Transformer,neuralforecast,auto,,
+auto_model,AutoTFT,neuralforecast.auto,neuralforecast.auto.AutoTFT,"Class for Automatic Hyperparameter Optimization, it builds on top of `ray` to",Transformer,neuralforecast,auto,,
+auto_model,AutoTimeXer,neuralforecast.auto,neuralforecast.auto.AutoTimeXer,"Class for Automatic Hyperparameter Optimization, it builds on top of `ray` to",Transformer,neuralforecast,auto,,
+auto_model,AutoVanillaTransformer,neuralforecast.auto,neuralforecast.auto.AutoVanillaTransformer,"Class for Automatic Hyperparameter Optimization, it builds on top of `ray` to",Transformer,neuralforecast,auto,,
+auto_model,AutoiTransformer,neuralforecast.auto,neuralforecast.auto.AutoiTransformer,"Class for Automatic Hyperparameter Optimization, it builds on top of `ray` to",Transformer,neuralforecast,auto,,
+model,TimeLLM,neuralforecast.models.timellm,neuralforecast.models.timellm.TimeLLM,TimeLLM,,neuralforecast,models,timellm,timellm
+model,BiTCN,neuralforecast.models.bitcn,neuralforecast.models.bitcn.BiTCN,BiTCN,CNN,neuralforecast,models,bitcn,bitcn
+model,TCN,neuralforecast.models.tcn,neuralforecast.models.tcn.TCN,TCN,CNN,neuralforecast,models,tcn,tcn
+model,TimesNet,neuralforecast.models.timesnet,neuralforecast.models.timesnet.TimesNet,TimesNet,CNN,neuralforecast,models,timesnet,timesnet
+model,DLinear,neuralforecast.models.dlinear,neuralforecast.models.dlinear.DLinear,DLinear,Linear/MLP,neuralforecast,models,dlinear,dlinear
+model,MLP,neuralforecast.models.mlp,neuralforecast.models.mlp.MLP,MLP,Linear/MLP,neuralforecast,models,mlp,mlp
+model,MLPMultivariate,neuralforecast.models.mlpmultivariate,neuralforecast.models.mlpmultivariate.MLPMultivariate,MLPMultivariate,Linear/MLP,neuralforecast,models,mlpmultivariate,mlpmultivariate
+model,NLinear,neuralforecast.models.nlinear,neuralforecast.models.nlinear.NLinear,NLinear,Linear/MLP,neuralforecast,models,nlinear,nlinear
+model,TSMixer,neuralforecast.models.tsmixer,neuralforecast.models.tsmixer.TSMixer,TSMixer,Linear/MLP,neuralforecast,models,tsmixer,tsmixer
+model,TSMixerx,neuralforecast.models.tsmixerx,neuralforecast.models.tsmixerx.TSMixerx,TSMixerx,Linear/MLP,neuralforecast,models,tsmixerx,tsmixerx
+model,DilatedRNN,neuralforecast.models.dilated_rnn,neuralforecast.models.dilated_rnn.DilatedRNN,DilatedRNN,RNN,neuralforecast,models,dilated_rnn,dilated_rnn
+model,GRU,neuralforecast.models.gru,neuralforecast.models.gru.GRU,GRU,RNN,neuralforecast,models,gru,gru
+model,LSTM,neuralforecast.models.lstm,neuralforecast.models.lstm.LSTM,LSTM,RNN,neuralforecast,models,lstm,lstm
+model,xLSTM,neuralforecast.models.xlstm,neuralforecast.models.xlstm.xLSTM,xLSTM,RNN,neuralforecast,models,xlstm,xlstm
+model,DeepAR,neuralforecast.models.deepar,neuralforecast.models.deepar.DeepAR,DeepAR,Specialized,neuralforecast,models,deepar,deepar
+model,DeepNPTS,neuralforecast.models.deepnpts,neuralforecast.models.deepnpts.DeepNPTS,DeepNPTS,Specialized,neuralforecast,models,deepnpts,deepnpts
+model,KAN,neuralforecast.models.kan,neuralforecast.models.kan.KAN,KAN,Specialized,neuralforecast,models,kan,kan
+model,NBEATS,neuralforecast.models.nbeats,neuralforecast.models.nbeats.NBEATS,NBEATS,Specialized,neuralforecast,models,nbeats,nbeats
+model,NBEATSx,neuralforecast.models.nbeatsx,neuralforecast.models.nbeatsx.NBEATSx,NBEATSx,Specialized,neuralforecast,models,nbeatsx,nbeatsx
+model,NHITS,neuralforecast.models.nhits,neuralforecast.models.nhits.NHITS,NHITS,Specialized,neuralforecast,models,nhits,nhits
+model,RMoK,neuralforecast.models.rmok,neuralforecast.models.rmok.RMoK,Reversible Mixture of KAN,Specialized,neuralforecast,models,rmok,rmok
+model,RNN,neuralforecast.models.rnn,neuralforecast.models.rnn.RNN,RNN,Specialized,neuralforecast,models,rnn,rnn
+model,SOFTS,neuralforecast.models.softs,neuralforecast.models.softs.SOFTS,SOFTS,Specialized,neuralforecast,models,softs,softs
+model,StemGNN,neuralforecast.models.stemgnn,neuralforecast.models.stemgnn.StemGNN,StemGNN,Specialized,neuralforecast,models,stemgnn,stemgnn
+model,TiDE,neuralforecast.models.tide,neuralforecast.models.tide.TiDE,TiDE,Specialized,neuralforecast,models,tide,tide
+model,TimeMixer,neuralforecast.models.timemixer,neuralforecast.models.timemixer.TimeMixer,TimeMixer,Specialized,neuralforecast,models,timemixer,timemixer
+model,Autoformer,neuralforecast.models.autoformer,neuralforecast.models.autoformer.Autoformer,Autoformer,Transformer,neuralforecast,models,autoformer,autoformer
+model,FEDformer,neuralforecast.models.fedformer,neuralforecast.models.fedformer.FEDformer,FEDformer,Transformer,neuralforecast,models,fedformer,fedformer
+model,Informer,neuralforecast.models.informer,neuralforecast.models.informer.Informer,Informer,Transformer,neuralforecast,models,informer,informer
+model,PatchTST,neuralforecast.models.patchtst,neuralforecast.models.patchtst.PatchTST,PatchTST,Transformer,neuralforecast,models,patchtst,patchtst
+model,TFT,neuralforecast.models.tft,neuralforecast.models.tft.TFT,TFT,Transformer,neuralforecast,models,tft,tft
+model,TimeXer,neuralforecast.models.timexer,neuralforecast.models.timexer.TimeXer,TimeXer,Transformer,neuralforecast,models,timexer,timexer
+model,VanillaTransformer,neuralforecast.models.vanillatransformer,neuralforecast.models.vanillatransformer.VanillaTransformer,VanillaTransformer,Transformer,neuralforecast,models,vanillatransformer,vanillatransformer
+model,iTransformer,neuralforecast.models.itransformer,neuralforecast.models.itransformer.iTransformer,iTransformer,Transformer,neuralforecast,models,itransformer,itransformer

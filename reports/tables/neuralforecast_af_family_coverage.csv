@@ -1,0 +1,6 @@
+﻿family,models,has_config,avg_cfg,max_cfg,coverage_rate
+Specialized,13,12,14.307692307692308,21.0,0.9230769230769231
+Transformer,8,8,14.875,15.0,1.0
+Linear/MLP,6,6,14.5,15.0,1.0
+RNN,4,4,15.75,17.0,1.0
+CNN,3,3,14.666666666666666,15.0,1.0

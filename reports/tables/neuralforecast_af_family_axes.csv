@@ -1,0 +1,6 @@
+﻿family,models,avg_top_key,avg_entries
+RNN,4,12.5,15.75
+Specialized,12,11.666666666666666,15.5
+Transformer,8,11.125,14.875
+CNN,3,11.0,14.666666666666666
+Linear/MLP,6,10.833333333333334,14.5

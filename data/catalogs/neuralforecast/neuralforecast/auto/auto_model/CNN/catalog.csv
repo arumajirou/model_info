@@ -1,0 +1,4 @@
+﻿kind,name,module,qualname,doc,family,library,namespace,submodule_head,submodule
+auto_model,AutoBiTCN,neuralforecast.auto,neuralforecast.auto.AutoBiTCN,"Class for Automatic Hyperparameter Optimization, it builds on top of `ray` to",CNN,neuralforecast,auto,,
+auto_model,AutoTCN,neuralforecast.auto,neuralforecast.auto.AutoTCN,"Class for Automatic Hyperparameter Optimization, it builds on top of `ray` to",CNN,neuralforecast,auto,,
+auto_model,AutoTimesNet,neuralforecast.auto,neuralforecast.auto.AutoTimesNet,"Class for Automatic Hyperparameter Optimization, it builds on top of `ray` to",CNN,neuralforecast,auto,,

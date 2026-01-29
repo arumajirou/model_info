@@ -1,0 +1,5 @@
+﻿kind,name,module,qualname,doc,family,library,namespace,submodule_head,submodule
+auto_model,AutoDilatedRNN,neuralforecast.auto,neuralforecast.auto.AutoDilatedRNN,"Class for Automatic Hyperparameter Optimization, it builds on top of `ray` to",RNN,neuralforecast,auto,,
+auto_model,AutoGRU,neuralforecast.auto,neuralforecast.auto.AutoGRU,"Class for Automatic Hyperparameter Optimization, it builds on top of `ray` to",RNN,neuralforecast,auto,,
+auto_model,AutoLSTM,neuralforecast.auto,neuralforecast.auto.AutoLSTM,"Class for Automatic Hyperparameter Optimization, it builds on top of `ray` to",RNN,neuralforecast,auto,,
+auto_model,AutoxLSTM,neuralforecast.auto,neuralforecast.auto.AutoxLSTM,"Class for Automatic Hyperparameter Optimization, it builds on top of `ray` to",RNN,neuralforecast,auto,,

@@ -1,0 +1,9 @@
+﻿kind,name,module,qualname,doc,family,library,namespace,submodule_head,submodule
+auto_model,AutoAutoformer,neuralforecast.auto,neuralforecast.auto.AutoAutoformer,"Class for Automatic Hyperparameter Optimization, it builds on top of `ray` to",Transformer,neuralforecast,auto,,
+auto_model,AutoFEDformer,neuralforecast.auto,neuralforecast.auto.AutoFEDformer,"Class for Automatic Hyperparameter Optimization, it builds on top of `ray` to",Transformer,neuralforecast,auto,,
+auto_model,AutoInformer,neuralforecast.auto,neuralforecast.auto.AutoInformer,"Class for Automatic Hyperparameter Optimization, it builds on top of `ray` to",Transformer,neuralforecast,auto,,
+auto_model,AutoPatchTST,neuralforecast.auto,neuralforecast.auto.AutoPatchTST,"Class for Automatic Hyperparameter Optimization, it builds on top of `ray` to",Transformer,neuralforecast,auto,,
+auto_model,AutoTFT,neuralforecast.auto,neuralforecast.auto.AutoTFT,"Class for Automatic Hyperparameter Optimization, it builds on top of `ray` to",Transformer,neuralforecast,auto,,
+auto_model,AutoTimeXer,neuralforecast.auto,neuralforecast.auto.AutoTimeXer,"Class for Automatic Hyperparameter Optimization, it builds on top of `ray` to",Transformer,neuralforecast,auto,,
+auto_model,AutoVanillaTransformer,neuralforecast.auto,neuralforecast.auto.AutoVanillaTransformer,"Class for Automatic Hyperparameter Optimization, it builds on top of `ray` to",Transformer,neuralforecast,auto,,
+auto_model,AutoiTransformer,neuralforecast.auto,neuralforecast.auto.AutoiTransformer,"Class for Automatic Hyperparameter Optimization, it builds on top of `ray` to",Transformer,neuralforecast,auto,,

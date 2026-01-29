@@ -1,0 +1,4 @@
+﻿kind,name,module,qualname,doc,family,library,namespace,submodule_head,submodule
+model,BiTCN,neuralforecast.models.bitcn,neuralforecast.models.bitcn.BiTCN,BiTCN,CNN,neuralforecast,models,bitcn,bitcn
+model,TCN,neuralforecast.models.tcn,neuralforecast.models.tcn.TCN,TCN,CNN,neuralforecast,models,tcn,tcn
+model,TimesNet,neuralforecast.models.timesnet,neuralforecast.models.timesnet.TimesNet,TimesNet,CNN,neuralforecast,models,timesnet,timesnet
